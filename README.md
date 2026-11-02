@@ -33,7 +33,7 @@ Python · pandas · NumPy · scikit-learn · matplotlib · JupyterLab
 pip install -r requirements.txt
 jupyter lab
 ```
-Les projets 01 à 04 génèrent leurs propres données. Les projets 05 et 06 nécessitent les fichiers CSV indiqués dans leur README.
+Chaque dossier contient les fichiers CSV utilisés. Les projets 01 à 04 peuvent aussi régénérer leurs données (première cellule du notebook).
 
 ## Auteur
 **Loïc Thiery** – Data Analyst (Power BI, Microsoft Fabric, Python) · [GitHub](https://github.com/loic1thiery)

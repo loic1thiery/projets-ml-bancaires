@@ -26,4 +26,4 @@ Avec les interactions, le coût total minimal baisse de 31 200 € à 26 750 €
 ## Ce que j'en retiens
 Les données comportementales apportent plus que le profil statique. Pistes : courbes ROC comparées, validation croisée, forêt aléatoire, taux de réussite des actions de fidélisation dans le calcul de coût.
 
-> Les fichiers `clients.csv` et `interactions_12_mois.csv` doivent être placés dans ce dossier pour relancer les notebooks.
+> Les fichiers `clients.csv` et `interactions_12_mois.csv` sont fournis dans ce dossier.

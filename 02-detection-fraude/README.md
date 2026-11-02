@@ -19,3 +19,5 @@
 
 ## Ce que j'en retiens
 Quand l'événement est très rare, détecter deux tiers des fraudes coûte cher en fausses alertes : environ un client honnête sur quatre serait bloqué. Le seuil doit se choisir avec le coût d'une fraude manquée et le coût d'une vérification. Pistes : modèles non linéaires (forêt aléatoire, gradient boosting) et variables comportementales plus fines.
+
+> Le fichier `transactions_fraude.csv` est fourni dans ce dossier ; la première cellule du notebook permet aussi de le régénérer.

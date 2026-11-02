@@ -19,3 +19,5 @@
 
 ## Ce que j'en retiens
 Le premier modèle affiche 91 % d'exactitude… en ne prédisant **aucun** départ. Sur des classes déséquilibrées, l'exactitude est trompeuse : il faut regarder le rappel, la précision et l'AUC.
+
+> Le fichier `donnees_churn.csv` est fourni dans ce dossier ; la première cellule du notebook permet aussi de le régénérer.

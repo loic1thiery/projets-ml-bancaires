@@ -19,3 +19,5 @@
 
 ## Ce que j'en retiens
 Le seuil de 0,5 par défaut n'a rien d'optimal : il se choisit à partir des coûts métier, qui doivent être explicités. Piste : choisir le seuil par validation croisée sur l'entraînement plutôt que sur le test.
+
+> Le fichier `experience_client.csv` est fourni dans ce dossier ; la première cellule du notebook permet aussi de le régénérer.

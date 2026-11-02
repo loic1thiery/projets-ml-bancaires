@@ -21,3 +21,5 @@ Variables les plus importantes : **durée, montant et revenu**, soit les ingréd
 
 ## Ce que j'en retiens
 L'importance par permutation et les tableaux croisés permettent d'expliquer le modèle à un métier. Piste : construire directement un taux d'endettement (mensualité / revenu).
+
+> Le fichier `prets_credit.csv` est fourni dans ce dossier ; la première cellule du notebook permet aussi de le régénérer.

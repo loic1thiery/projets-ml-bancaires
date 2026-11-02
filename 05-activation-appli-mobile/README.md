@@ -28,4 +28,4 @@ Export CSV fictif au format français (`;` et `,` décimale) de 5 018 clients, *
 ## Limites
 Le modèle mesure des corrélations, pas des causes : un **test A/B** est nécessaire avant de généraliser un canal.
 
-> Le fichier `export_campagne_appli_mobile.csv` doit être placé dans ce dossier pour relancer le notebook.
+> Le fichier `export_campagne_appli_mobile.csv` est fourni dans ce dossier.
