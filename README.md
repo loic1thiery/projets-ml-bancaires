@@ -1,10 +1,10 @@
-# Machine learning appliqué à la banque
+# Projets de data science : banque, assurance et plus
 
-Sept cas d'usage bancaires traités de bout en bout en Python : du nettoyage des données jusqu'à la décision métier (choix du seuil selon les coûts, simulation de scénarios).
+Des cas d'usage métier traités de bout en bout en Python, du nettoyage des données jusqu'à la décision (choix du seuil selon les coûts, simulation de scénarios, recommandation argumentée). Les projets sont classés par secteur et deviennent progressivement plus complexes.
 
-> **Données entièrement fictives.** Elles sont générées dans les notebooks ou proviennent d'exports simulés. Aucune donnée client réelle n'est utilisée.
+> **Données entièrement fictives.** Elles sont générées dans les notebooks, par des scripts ou proviennent d'exports simulés. Aucune donnée client réelle n'est utilisée.
 
-## Projets
+## Banque
 
 | # | Projet | Question métier | Données | AUC |
 |---|---|---|---|---|
@@ -16,7 +16,9 @@ Sept cas d'usage bancaires traités de bout en bout en Python : du nettoyage des
 | 06 | [Attrition + interactions](06-attrition-interactions) | L'historique de relation améliore-t-il la détection ? | 4 000 clients + 210 000 interactions | 0,65 → 0,74 |
 | 07 | [Comparaison de modèles – crédit](07-comparaison-modeles-credit) | Un modèle plus complexe vaut-il la perte d'explicabilité ? | 12 000 demandes de prêt, 11 % de défauts | 0,76 → 0,81 |
 
-## Démarche commune
+**Prochains projets** : assurance (coût des sinistres, régression), segmentation de clientèle, séries temporelles, traitement de texte.
+
+## Démarche (projets de classification)
 1. Poser le problème : classification binaire, au service de quelle décision ?
 2. Auditer et nettoyer : doublons, valeurs manquantes, valeurs impossibles, formats français
 3. Découper en train/test stratifié
