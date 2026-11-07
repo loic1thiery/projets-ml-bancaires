@@ -1,6 +1,6 @@
 # Machine learning appliqué à la banque
 
-Six cas d'usage bancaires traités de bout en bout en Python : du nettoyage des données jusqu'à la décision métier (choix du seuil selon les coûts, simulation de scénarios).
+Sept cas d'usage bancaires traités de bout en bout en Python : du nettoyage des données jusqu'à la décision métier (choix du seuil selon les coûts, simulation de scénarios).
 
 > **Données entièrement fictives.** Elles sont générées dans les notebooks ou proviennent d'exports simulés. Aucune donnée client réelle n'est utilisée.
 
@@ -14,6 +14,7 @@ Six cas d'usage bancaires traités de bout en bout en Python : du nettoyage des 
 | 04 | [Insatisfaction client](04-insatisfaction-client) | Qui contacter en priorité ? | 6 000 clients, 15 % d'insatisfaits | 0,77 |
 | 05 | [Activation appli mobile](05-activation-appli-mobile) | Quels leviers de campagne activer ? | 5 018 clients, 38 % d'activations | 0,77 |
 | 06 | [Attrition + interactions](06-attrition-interactions) | L'historique de relation améliore-t-il la détection ? | 4 000 clients + 210 000 interactions | 0,65 → 0,74 |
+| 07 | [Comparaison de modèles – crédit](07-comparaison-modeles-credit) | Un modèle plus complexe vaut-il la perte d'explicabilité ? | 12 000 demandes de prêt, 11 % de défauts | 0,76 → 0,81 |
 
 ## Démarche commune
 1. Poser le problème : classification binaire, au service de quelle décision ?
@@ -25,6 +26,8 @@ Six cas d'usage bancaires traités de bout en bout en Python : du nettoyage des 
 7. Interpréter : odds ratios, importance par permutation, tableaux croisés
 8. Décider : seuil choisi selon les coûts métier, simulations « et si ? »
 
+À partir du projet 07 : validation croisée, forêt aléatoire et gradient boosting, réglages par `GridSearchCV`, seuil choisi sans regarder le jeu de test.
+
 ## Outils
 Python · pandas · NumPy · scikit-learn · matplotlib · JupyterLab
 
@@ -33,7 +36,7 @@ Python · pandas · NumPy · scikit-learn · matplotlib · JupyterLab
 pip install -r requirements.txt
 jupyter lab
 ```
-Chaque dossier contient les fichiers CSV utilisés. Les projets 01 à 04 peuvent aussi régénérer leurs données (première cellule du notebook).
+Chaque dossier contient les fichiers CSV utilisés. Les projets 01 à 04 peuvent aussi régénérer leurs données (première cellule du notebook), le projet 07 avec `generer_donnees.py`.
 
 ## Auteur
 **Loïc Thiery** – Data Analyst (Power BI, Microsoft Fabric, Python) · [GitHub](https://github.com/loic1thiery)
